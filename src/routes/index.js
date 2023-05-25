@@ -7,6 +7,7 @@ const router = require('express').Router();
 
 router.get('/character/:id', (req,res)=>{
 getCharacterById(req,res)});
+
 router.get('/login', login );
 
 router.post('/fav', postFav);

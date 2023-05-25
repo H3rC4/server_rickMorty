@@ -24,7 +24,8 @@ server.use((req, res, next) => {
    next();
 });
 //!hasta aca--------------------
-//hace q se escriba rickandmorty antes de cada ruta
+//hace q se escriba rickandmorty antes de cada
+// ruta e ejecuta el router
 server.use('/rickandmorty', router);
 
 
